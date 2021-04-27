@@ -5,8 +5,10 @@ import {saveState} from 'src/helpers/persistState';
 
 const initialState = {
   isInProgress: false,
-  isAuthenticated: false,
-  user: {},
+  isAuthenticated: true,
+  user: {
+    name: 'Alexey',
+  },
   error: null,
 };
 

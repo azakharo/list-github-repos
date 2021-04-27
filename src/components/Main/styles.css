@@ -41,6 +41,11 @@ header {
 
 main {
   grid-column: main;
+
+  .repo-list {
+    max-height: 100%;
+    overflow: auto;
+  }
 }
 
 aside {
